@@ -6,7 +6,7 @@ let dx = 2; // Change in position along X-axis
 let dy = 2; // Change in position along Y-axis
 
 // Initial size
-let imgWidth = 276;
+let imgWidth = 376;
 let imgHeight = 508;
 
 // Update the score
@@ -54,3 +54,4 @@ img.addEventListener('click', () => {
     shrinkImage();
     updateScore();
 });
+
